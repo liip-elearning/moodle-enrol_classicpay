@@ -1,10 +1,9 @@
-
-SEBSOFT CLASSICPAY ENROLMENT PLUGIN
+# Sebsoft ClassicPay enrolment Plugin
 
 The Sebsoft ClassicPay enrolment Plugin offers you the possibility to set up paid courses.
 It uses a payment gateway to provide payments supporting a wide variety of payment methods.
 
-The service is provided by Sebsoft.
+The service is provided by Sebsofit.
 Sebsoft will arrange for your registration at Pay.nl, and we will be able to provide you with the tariffs we're able to supply.
 The foundation "Stichting Pay.nl" will collect your funds, and pay out these amounts directly to your account.
 This foundation is a so called "third party funds foundation", so in case of any problems at Pay.nl,
@@ -17,8 +16,8 @@ transaction cost to Sebsoft, and you will receive the money from "Stichting Pay.
 You will receive this contractual agreement from Sebsoft, after validation of all
 required legal documents you (must) provide when applying for the service.
 
------
-COUPONS
+## Coupons
+
 The Classicpay plugin provides full support for discount coupons to be created for courses.
 A coupon is created either for a specific course or for any accessible course (site wide).
 Coupons consist of a startdate and enddate, a percentual discount, the course
@@ -30,25 +29,25 @@ method enabled for the course, the classicpay plugin creates it's own menu item
 in the course administration tree.
 When you create coupons from there, it's bound to the specific course you're editing.
 
------
-PAYMENT METHODS
+## Payment methods
+
 Currently supported payment methods are (subject to change):
 
-Giropay
-iDEAL
-Maestro
-MisterCash / Bancontact
-Mybank
-Wire transfer / Overboeking
-Paysafecard
-Sofortbanking (limited)
-Postepay *
-Carte Bleue *
-Visa Mastercard *
-AfterPay *
-Click and Buy *
-Incasso / Direct debit / SEPA domiciliëring *
-PayPal *
+* Giropay
+* iDEAL
+* Maestro
+* MisterCash / Bancontact
+* Mybank
+* Wire transfer / Overboeking
+* Paysafecard
+* Sofortbanking (limited)
+* Postepay *
+* Carte Bleue *
+* Visa Mastercard *
+* AfterPay *
+* Click and Buy *
+* Incasso / Direct debit / SEPA domiciliëring *
+* PayPal *
 
 Note: payment methods marked with an asterisk * require extra information, which
 is usually account information. We will contact you regarding details when you
@@ -60,8 +59,7 @@ All costs are excluding VAT, en will be billed to you every week by Sebsoft.
 When you have a company in one of the other supported countries, and you have a valid VAT registration number,
 you can make use of the intracommunity supplies arrangement, so you don't have pay the VAT.
 
------
-CLASSICPAY PLUS
+## ClassicPay Plus
 
 This is an extension which will cost you the amount of €0,10 extra (excluding Dutch VAT) per transaction.
 If you have a company in one of the other supported countries, and you have a valid VAT registration number,
@@ -70,12 +68,11 @@ Using this extension your endusers can receive a nice invoice from our ClassicPa
 This invoice can be processed within the administration of your end users.
 Apart from your endusers receiving this invoice, you will receive the invoice itself in your e-mail inbox as well.
 
------
-INSTALLATION
+## Installation
 
 - Copy the classicpay folder to your enrol directory.
 - Go to the administration notifications page.
-- Install te plugin.
+- Install the plugin.
 - Configure your plugin.
 - The plugin, once installed, creates it's own administration menu (at the bottom)
 - Go to the service registration page from the menu.
